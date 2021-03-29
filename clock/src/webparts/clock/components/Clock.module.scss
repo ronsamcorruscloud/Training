@@ -1,0 +1,11 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.clock {
+  .container {
+    max-width: 700px;
+    height: 300px;
+    margin: 0px auto;
+    display: flex;
+    background: #888;
+  }
+}

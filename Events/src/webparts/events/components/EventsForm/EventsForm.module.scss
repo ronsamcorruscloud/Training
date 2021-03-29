@@ -1,0 +1,18 @@
+.eventsform{
+    max-width: 700px;
+    margin: auto;
+    .header{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .formBody{
+        display: flex;
+        flex-direction: column;
+        >*{
+            margin-bottom: 10px;
+            *{
+                margin: 0px;
+            }
+        }
+    }
+}
